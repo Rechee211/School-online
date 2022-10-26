@@ -1,3 +1,5 @@
+package com.school;
+
 import com.school.models.Lecture;
 import com.school.service.LectureService;
 import com.school.service.StudentService;
