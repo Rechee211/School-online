@@ -57,6 +57,10 @@ out/
 
 out/
 
+out/production/Online_School
+
+.idea
+
 # JIRA plugin
 atlassian-ide-plugin.xml
 
