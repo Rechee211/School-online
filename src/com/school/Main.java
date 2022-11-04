@@ -17,6 +17,16 @@ public class Main {
         Lecture lectureThird = new Lecture(2,"Book A2, exersise 2, 1-A-B-C, 3-7", "You can see more information on 295 page, how can you do this " +
                 "homework and i sent on email additional information");
 
+        //Add new objects from 5 task for git
+        Lecture lectureFourth = new Lecture(1,"Book A2, exersise 4, 6-c-j , 7 and 8", "You can see more information on 271 page, how can you do this homework");
+
+
+        System.out.println("-----------------");
+        System.out.println("Topic of number: " + lectureFourth.numberOfTopics + "\n" + "Homework: " + lectureFourth.homeWork + "\n" + "Additional material: " + lectureFourth.additional_material);
+        System.out.println("-----------------");
+
+        //------------------------------------------------
+
         System.out.println("-----------------");
         serviceFirst.lectureLanguge("English");
         System.out.println("-----------------");
