@@ -20,6 +20,7 @@ public class StudentService extends Student {
     }
 
     public void groupLesson(int groupLesson, char charValue){
+
         System.out.println(groupLesson + "" + charValue);
     }
 

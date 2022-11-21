@@ -1,12 +1,14 @@
 package com.school.models;
 
 public class Kurs{
-    private static long ID;
+    public long IDkurs1;
     public static long counter;
-    public String nameOfKurs;
+    private Teacher lastNameTeacher;
+    private Student lastNameStudent;
+    private Lecture NameLecture;
 
-    public Kurs(String nameOfKurs) {
-        this.nameOfKurs = nameOfKurs;
-        ID = counter++;
+    public Kurs(long IDkurs1) {
+        this.IDkurs1 = IDkurs1;
+        counter++;
     }
 }

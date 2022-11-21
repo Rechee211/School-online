@@ -10,6 +10,7 @@ public class LectureService{
 
 
     public void lectureLanguge(String typeOfLanguage){
+
         System.out.println(typeOfLanguage);
     }
 
